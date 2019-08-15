@@ -7,7 +7,7 @@ axios 是一个基于基于 Promise 的网路请求库，可以用于浏览器�
 
 在进入具体细节分析前，先预览一下我阅读源码之后绘制的运行依赖图，可以感受下整体结构
 
-![2019-08-13_172827](C:\Users\xsz\Desktop\2019-08-13_172827.png)
+![axios运行依赖图](https://raw.githubusercontent.com/Archmee/lkd2d97zvb5fvz89feyhwr98v/master/gitblog/images/axios-structure-2019-08-13_172827.png)
 
 图片中对于方向表达的不是很明确，简单点说就是上层模块依赖下层模块，而右边的模块主要是为左边的这些模块提供一些通用的工具和方法，比如类型判断等，所以下边的分析重点只会聚焦于左边这一块的内容。
 
