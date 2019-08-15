@@ -6,7 +6,7 @@
 
 Tasks
 
--[x] [axios 源码分析](./analysis.axios.md)
--[] Promise 源码分析
--[] Vue 源码分析
--[] ...more...
+- [ x ] [axios 源码分析](./analysis.axios.md)
+- [ ] Promise 源码分析
+- [ ] Vue 源码分析
+- [ ] ...more...
