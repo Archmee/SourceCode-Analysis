@@ -48,7 +48,7 @@ axios 是一个基于基于 Promise 的网路请求库，可以用于浏览器�
 
 导入配置对象，这个对象大概长这样，里面初始化了网络请求库、请求头信息等，该对象随后会在给各个模块间传递进行使用，
 
-```json
+```js
 defaults = {
   	// 根据 node 和 browser 的区别返回 http | xhr 的模块
     adapter: getDefaultAdapter(),
@@ -63,7 +63,7 @@ defaults = {
     xsrfCookieName: 'XSRF-TOKEN',
     xsrfHeaderName: 'X-XSRF-TOKEN',
     maxContentLength: -1,
-    validateStatus: function, // 校验http状态码的函数
+    validateStatus: function(){}, // 校验http状态码的函数
     
     headers = {
       common: {
